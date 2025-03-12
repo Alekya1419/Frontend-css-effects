@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.image-box {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.image-box:hover {
+    transform: scale(1.1);
+    box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.5);
+}
+
+img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
